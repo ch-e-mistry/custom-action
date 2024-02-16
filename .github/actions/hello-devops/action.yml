@@ -3,5 +3,5 @@ description: 'Kiír egy üdvözlő üzenetet a shell script használatával'
 runs:
   using: 'composite'
   steps:
-    - run: ./.github/actions/hello-devops/hello.sh
+    - run: ./hello.sh
       shell: bash
