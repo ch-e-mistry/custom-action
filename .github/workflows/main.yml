@@ -11,5 +11,8 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
+    - name: Make script executable
+      run: chmod +x .github/actions/hello-devops/hello.sh
+      
     - name: Hello World Action
       uses: ./.github/actions/hello-devops
